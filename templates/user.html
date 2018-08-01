@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+</head>
+<body>
+	{% if success=='F' %}
+		<script type="text/javascript">
+			alert('Enter correct data...');
+		</script>
+	{% endif %}
+	<form action="login" method = "post">
+		<center>Login here</center>
+		<h1>User Name: <input type="text" name="user"></h1>
+		<h1>Password : <input type="password" name="pas"></h1>
+		<input type = "submit" value = "submit" />
+	</form>
+</body>
+</html>
